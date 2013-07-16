@@ -34,6 +34,17 @@ and you will see that represented in my implementation of the method. It
 is implemented, but the `?` operator in CS is used instead of the
 `existy` method where applicable. 
 
+I've taken the approach of creating static methods on constructor
+objects(`class` keyword in CoffeeScript). I'm really just doing this to
+create obvious namespaces, but it also presents the opportunity to
+reference functions in the same namespaces with the 'this' notation `@`.
+Not sure I will continue in this format, but it seemed an obvious way
+to start.
+
+Code for chapter 1 spans the enumerable, window, and fun classes in the
+src directory. Specs for those functions are in the appropriate spec
+file.
+
 ---
 
 ## Project Temaplate was taken from coffeescript-jasmine-boilerplate
