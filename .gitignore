@@ -1,0 +1,7 @@
+_SpecRunner.html
+node_modules
+spec/kata_spec.js
+spec/monadicSpec.js
+spec/plainSpec.js
+spec/testSpec.coffee
+src/kata_src.js

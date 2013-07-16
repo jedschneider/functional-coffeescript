@@ -1,0 +1,28 @@
+{
+  "name": "coffeescript-jasmine-boilerplate",
+  "version": "0.0.1",
+  "description": "A simple way to get started writing and testing coffeescript; good for katas!",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewvida/coffeescript-jasmine-boilerplate"
+  },
+  "author": {
+    "name": "Andrew Vida",
+    "email": "andy@testdouble.com",
+    "url": "http://www.testdouble.com"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "grunt-contrib-jasmine": "latest",
+    "grunt": "~0.4.0",
+    "grunt-contrib-coffee": "~0.4.0",
+    "grunt-contrib-watch": "~0.2.0a",
+    "wu": "~0.1.8"
+  },
+  "dependencies": {
+    "underscore": "~1.3.3"
+  }
+}
